@@ -45,7 +45,7 @@ public class SQLInsert {
 			Connection c = SQLConnect.getC();
 
 			PreparedStatement s = c.prepareStatement(sMesa);
-			s.setInt(1, mesa.getNum_personas()));
+			s.setInt(1, mesa.getNum_personas());
 
 			s.executeUpdate();
 
@@ -164,6 +164,8 @@ public class SQLInsert {
 		for(Cuenta cuenta : cuentas_prueba) {
 			insertarCuenta(cuenta);
 		}
+		
+		
 		
 		
 		
