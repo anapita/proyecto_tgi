@@ -6,7 +6,7 @@ public class SQLShow {
 	
 	//Mostrar Camarero
 	
-	public static void mostrarCamarero ()
+	/*public static void mostrarCamarero ()
 	{
 		
 		SQLConnect sqlconnect = new SQLConnect();
@@ -18,7 +18,7 @@ public class SQLShow {
 				
 				
 		sqlconnect.cerrarConexion();
-	}	
+	}	*/
 	
 	
 

@@ -134,7 +134,7 @@ public class SQLInsert {
 		for (Camarero camarero : camareros_prueba) {
 
 			insertarCamarero(camarero);
-
+			camarero.setId(SQLConsulta.consultarCamareroId(camarero));
 		}
 		
 		//Mesas prueba
@@ -148,7 +148,7 @@ public class SQLInsert {
 		
 		for(Mesa mesa : mesas_prueba) {
 			insertarMesa(mesa);
-			
+			mesa.setId(SQLConsulta.consultarMesaId(mesa));
 		}
 		
 		//Cuentas prueba
